@@ -1,13 +1,13 @@
 # Responsive-Registration-Form-To-Do-List-Web-App
 Built a fully responsive web app using HTML, CSS (Flexbox &amp; Grid), and JavaScript. Features include a stylish registration form with real-time validation, a mobile-friendly responsive layout, and an interactive to-do list allowing users to add and delete tasks dynamically with instant updates.
 1. Contact Form Using HTML and CSS
-  A well-styled form with:
+  A well-styled form with:    
   Text input for name
   Email input for email address
   A submit button
 
 3. JavaScript Form Validation
-  When you try to submit the form:
+  When you try to submit the form:   
   If required fields are empty or email format is wrong, a message displays and the form does not submit.
   Valid submissions can give a "Thank you" prompt.
 
