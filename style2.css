@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color:black;
+}
+
+.navbar {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  background: #336699;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 30px;
+}
+
+.registration-form, .todo-section {
+  background: #e0e7ef;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+@media (max-width: 700px) {
+  .main-content {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  .navbar ul {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+#name, #email {
+    color: rgb(0, 0, 0);
+    background: #f2f0f0;
+    border: 1px solid #5a5252;
+    padding: 5px;
+    border-radius: 3px;
+}
