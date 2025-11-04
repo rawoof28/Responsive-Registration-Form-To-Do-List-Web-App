@@ -7,16 +7,16 @@ Built a fully responsive web app using HTML, CSS (Flexbox &amp; Grid), and JavaS
   A submit button
 
 3. JavaScript Form Validation
-  When you try to submit the form:   
+  When you try to submit the form:    
   If required fields are empty or email format is wrong, a message displays and the form does not submit.
   Valid submissions can give a "Thank you" prompt.
 
-4. Responsive Layout Using Flexbox and CSS Grid
+4. Responsive Layout Using Flexbox and CSS Grid  
   The navigation bar is built with Flexbox and adapts to different screen sizes (menus stack vertically on small screens).
   Main content (including the form) is placed in a CSS Grid that rearranges itself for mobile, tablet, and desktop.
   Media queries apply different styles based on device width.
 
-5. Dynamic To-Do List or Image Gallery Using JavaScript
+5. Dynamic To-Do List or Image Gallery Using JavaScript  
   A section allows you to enter a task or upload an image.
   Each new item appears instantly (no page reload).
   You can remove tasks or images dynamically by clicking a "delete" button next to them.
